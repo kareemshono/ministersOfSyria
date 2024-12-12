@@ -40,3 +40,26 @@ a {
     color-scheme: dark;
   }
 }
+
+.swiper-slide {
+  display: flex!important;
+  flex-direction: column-reverse;
+  width: 100%;
+}
+.swiper-button-next:after {
+  color: #000;
+  background: #ffffffbd;
+  padding: 1rem;
+  font-size: 1.5rem!important;
+}
+.swiper-button-prev:after {
+  color: #000;
+  background: #ffffffbd;
+  padding: 1rem;
+  font-size: 1.5rem!important;
+}
+@media  (max-width: 576px ) {
+  .swpier-slide{
+    flex-direction: column-reverse!important;
+  }
+}
