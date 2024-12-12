@@ -20,6 +20,7 @@ body{
 }
 @media  (max-width: 576px ) {
   .swpier-slide{
+    width: 90%;
     flex-direction: column-reverse!important;
   }
 }
